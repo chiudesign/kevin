@@ -1,0 +1,131 @@
+/*
+ Theme Name:     Chiu2
+ Description:    Divi Child Theme
+ Template:       Divi
+ Version:        1.0.1
+*/
+ 
+@import url("../Divi/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/*@media all and (max-width: 980px) {
+.et_header_style_split .mobile_menu_bar,
+.et_header_style_left .mobile_menu_bar {
+	padding-bottom: 12px;
+}
+
+	.et_header_style_left .et-fixed-header #et-top-navigation,
+	.et_header_style_left #et-top-navigation {
+		display: block;
+		padding-top: 12px;
+}
+}*/
+/*override menu icon*/
+.mobile_menu_bar:before,
+.mobile_menu_bar:after{color:#ccc;}
+
+
+h1, h2, h3, h4, h5, h6
+		{font-family: "HelveticaNeue-Bold", 'Helvetica Neue Bold', Helvetica, Arial, Lucida, sans-serif;	}
+body, input, textarea, select, p
+		{font-family: 'Helvetica Neue', Helvetica, Arial, Lucida, sans-serif; font-weight: 400;}
+
+		
+.et_slide_in_menu_container, .et_slide_in_menu_container .et-search-field{
+		font-family: "HelveticaNeue", 'Helvetica Neue', Helvetica, Arial, Lucida, sans-serif; 
+		font-weight: 400;}
+
+
+
+.hnlight {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+
+header#main-header {border-bottom: 1px solid #eee}
+
+.et_mobile_menu {border-top: 2px solid #000000;
+	padding: 0%;
+	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.et_mobile_menu li a {
+	display: block;
+	padding: 20px 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+	color: #000;
+	font-size: 18px;
+}
+
+.nav ul li a:hover,
+.et_mobile_menu li a:hover {
+	opacity: 0.9;
+	color: #fff;
+	background-color: rgba(0, 0, 0, .9);
+}
+
+button.et_pb_contact_submit.et_pb_button, button.et_pb_contact_submit.et_pb_button:hover{padding: 0.3em 2em !important;}
+
+.et_pb_contact_main_title {display: none !important;}
+div.et-pb-contact-message p{font-size: 24px;}
+
+
+
+
+
+.wp-caption {
+	max-width: 100%;
+	margin-bottom: 15px;
+	padding: 0px;
+	/* padding-top: 4px; */
+	border: 0px solid #eeeeee;
+	background-color: transparent; 
+	text-align: left;
+}
+
+
+.wp-caption p.wp-caption-text {
+	margin: 0;
+	padding: 0 4px 5px;
+	font-size: 0.8em;
+	color: #888;
+}
+
+
+
+.thm-shadow-md {
+-webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);
+}
+
+
+.thm-shadow-sm {
+-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+}
+
+
+.cd_animation_fade_in {
+	opacity: 1;
+	-webkit-animation: fadeIn 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+	-moz-animation: fadeIn 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+	-o-animation: fadeIn 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+	animation: fadeIn 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+
+.cd_animation_fade_in {
+	opacity: 1;
+	-webkit-animation: fadeRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+	-moz-animation: fadeRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+	-o-animation: fadeRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+	animation: fadeRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+}
